@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <form action="/" method="post">
+        <fieldset class="formulario">
+            <legend class="ocult">Nombre y Apellido</legend>
+            <label for="nombreCompleto">Nombre y Apellido</label>
+            <input type="text" name="nombreCompleto" id="nombreCompleto" required>
+        </fieldset>
+
+        <fieldset class="formulario">
+            <legend>Nombre de Usuario</legend>
+            <label for="usuario">Nombre de Usuario</label>
+            <input type="text" name="usuario" id="usuario" required>
+        </fieldset>
+
+        <fieldset class="formulario">
+            <legend>Fecha de Nacimiento</legend>
+            <label for="fecha">Fecha de Nacimiento</label>
+            <input type="text" name="fecha" id="fecha" required>
+        </fieldset>
+
+        <fieldset class="formulario">
+            <legend>Domicilio</legend>
+            <label for="domicilio">Domicilio</label>
+            <input type="text" name="domicilio" id="domicilio" required>
+        </fieldset>
+
+        <fieldset class="formulario">
+            <legend>Perfil de Usuario</legend>
+            <label for="perfilComprador">Comprador</label>
+            <input type="radio" name="perfil" id="perfilComprador" value="comprador" required>
+            <label for="perfilVendedor">Vendedor</label>
+            <input type="radio" name="perfil" id="perfilVendedor" value="vendedor" required>
+        </fieldset>
+
+        <fieldset class="formulario">
+            <legend>Categorías de Interés</legend>
+            <label for="categoriaElectro">Electro</label>
+            <input type="checkbox" name="categoria" id="categoriaElectro" value="electro">
+            <label for="categoriaModa">Moda</label>
+            <input type="checkbox" name="categoria" id="categoriaModa" value="moda">
+            <label for="categoriaHogar">Hogar</label>
+            <input type="checkbox" name="categoria" id="categoriaHogar" value="hogar">
+            <label for="categoriaJugueteria">Juguetería</label>
+            <input type="checkbox" name="categoria" id="categoriaJugueteria" value="juguetería">
+            <label for="categoriaVidaSana">Vida Sana</label>
+            <input type="checkbox" name="categoria" id="categoriaVidaSana" value="vidaSana">
+        </fieldset>
+
+        <fieldset>
+            <legend>Foto del Usuario</legend>
+            <label for="foto">FotoDelUsuario</label>
+            <input type="file" name="foto" id="foto" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>Contraseña</legend>
+            <label for="clave">contraseña</label>
+            <input type="password" name="clave" id="clave" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>Confirmar Contraseña</legend>
+            <label for="confirmar">confirmarContraseña</label>
+            <input type="password" name="confirmar" id="confirmar" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>Botones de Formulario</legend>
+            <button type="submit">Enviar</button>
+            <button type="reset">Reset</button>
+        </fieldset>
+
+        
+  
+    </form>
+    
+</body>
+</html>
