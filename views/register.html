@@ -5,43 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/normalize.css"/>
+    <link rel="stylesheet" href="/css/register.css"/>
+    <link rel="stylesheet" href="/css/styles.css"/>
+    <script src="https://kit.fontawesome.com/2820fab1de.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <form action="/" method="post">
         <fieldset class="formulario">
-            <legend class="ocult">Nombre y Apellido</legend>
+            <legend class="titulo">Nombre y Apellido</legend>
             <label for="nombreCompleto">Nombre y Apellido</label>
             <input type="text" name="nombreCompleto" id="nombreCompleto" required>
         </fieldset>
 
         <fieldset class="formulario">
-            <legend>Nombre de Usuario</legend>
+            <legend class="titulo">Nombre de Usuario</legend>
             <label for="usuario">Nombre de Usuario</label>
             <input type="text" name="usuario" id="usuario" required>
         </fieldset>
 
         <fieldset class="formulario">
-            <legend>Fecha de Nacimiento</legend>
+            <legend class="info">Fecha de Nacimiento</legend>
             <label for="fecha">Fecha de Nacimiento</label>
             <input type="text" name="fecha" id="fecha" required>
         </fieldset>
 
         <fieldset class="formulario">
-            <legend>Domicilio</legend>
+            <legend class="titulo">Domicilio</legend>
             <label for="domicilio">Domicilio</label>
             <input type="text" name="domicilio" id="domicilio" required>
         </fieldset>
 
         <fieldset class="formulario">
-            <legend>Perfil de Usuario</legend>
+            <legend class="info">Perfil de Usuario</legend>
             <label for="perfilComprador">Comprador</label>
             <input type="radio" name="perfil" id="perfilComprador" value="comprador" required>
             <label for="perfilVendedor">Vendedor</label>
             <input type="radio" name="perfil" id="perfilVendedor" value="vendedor" required>
         </fieldset>
 
-        <fieldset class="formulario">
-            <legend>Categorías de Interés</legend>
+        <fieldset class="orden">
+            <legend class="interes">Interés</legend>
             <label for="categoriaElectro">Electro</label>
             <input type="checkbox" name="categoria" id="categoriaElectro" value="electro">
             <label for="categoriaModa">Moda</label>
@@ -55,20 +60,20 @@
         </fieldset>
 
         <fieldset>
-            <legend>Foto del Usuario</legend>
-            <label for="foto">FotoDelUsuario</label>
+            <legend class="titulo">Foto del Usuario</legend>
+            <label for="foto">Foto</label>
             <input type="file" name="foto" id="foto" required>
         </fieldset>
 
         <fieldset>
-            <legend>Contraseña</legend>
-            <label for="clave">contraseña</label>
+            <legend class="titulo">Contraseña</legend>
+            <label for="clave">Contraseña</label>
             <input type="password" name="clave" id="clave" required>
         </fieldset>
 
         <fieldset>
-            <legend>Confirmar Contraseña</legend>
-            <label for="confirmar">confirmarContraseña</label>
+            <legend class="titulo">Confirmar Contraseña</legend>
+            <label for="confirmar">Confirmar Contraseña</label>
             <input type="password" name="confirmar" id="confirmar" required>
         </fieldset>
 

@@ -1,0 +1,37 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(235, 235, 235);;
+
+}
+
+  .formulario{
+      display: flex;
+      color: #666;
+      margin-bottom: 20px;
+    }
+
+  .titulo{
+      display: none;
+      border: none;
+    }
+
+  .info{
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+    }
+
+  .interes{
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    
+  }
+
+  .orden{
+    display: flex;
+    flex-direction: column;
+  }

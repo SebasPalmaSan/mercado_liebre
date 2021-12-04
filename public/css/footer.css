@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 60vw;
+  }
+  .titulosfooter {
+    font-size: 18px;
+    font-weight: 700;
+    font-style: bold;
+    text-align: center;
+    color: rgb(102, 102, 102);
+  }
+  
+  .textFooter {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    color: rgb(102, 102, 102);
+  }
+  
+  .fa-credit-card {
+    font-size: 34px;
+    color: blue;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .fa-gift {
+    font-size: 34px;
+    color: blue;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .fa-user-shield {
+    font-size: 34px;
+    color: blue;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  
+ 
