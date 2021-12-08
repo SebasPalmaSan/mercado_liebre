@@ -6,25 +6,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/footer.css"/>
+    <link rel="stylesheet" href="/css/header.css"/>
     <link rel="stylesheet" href="/css/login.css"/>
     <script src="https://kit.fontawesome.com/2820fab1de.js" crossorigin="anonymous"></script>
 </head>
+
+
 <body class="cuerpo">
+
+    <header class="main-header">
+        <section class="main-header-top-bar">
+            <figure class="logo">
+            <img src="/images/logo-mercado-liebre.svg">
+            </figure>
+            <form id="buscador"> <input type="search" value = "Buscar productos, marcas" id="barra"><button type="submit" onclick=""> <i class="fas fa-search"></i></button> </form>
+            <article class="copy-header">
+                <h2 ><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</h2>
+            </article>
+        </section>
+        
+    <section class="main-nav">
+    <nav class="main-navbar-left">
+        <a href="/" class="link">Ofertas</a>
+        <a href="/">Tiendas Oficiales</a>
+        <a href="/">Vender</a>
+        <a href="/">Ayuda</a>
+    </nav>
+    
+    <nav class="main-navbar-right">
+        <a href="/register">Creá tu cuenta<i class="fa-regular fa-id-card"></i></a>
+        <a href="/login">Ingresá<i class="fa-solid fa-arrow-right"></i></a>
+        <a href="/">Mis Compras<i class="fa-solid fa-basket-shopping"></i></a>
+    </nav>
+    </section>
+    
+    <nav class="burguer">
+        <a href="/"><i class="fas fa-bars"></i></a>
+    </nav>
+    
+    </header>
+
+
     <form action="/" method="post">
         <fieldset class="title">
-            <legend class="oculto">Nombre de Usuario</legend>
-            <label for="nombre">Nombre de Usuario</label>
-            <input type="text" name="nombreDeUsuario" id="nombreDeUsuario" required>
+            <legend class="none">Nombre de Usuario</legend>
+            <label for="nombre"></label>
+            <input type="text" placeholder="Nombre de Usuario" name="nombreDeUsuario" required>
         </fieldset>
 
         <fieldset class="title">
-            <legend class="oculto">Contraseña</legend>
-            <label for="pass">contraseña</label>
-            <input type="password" name="pass" id="pass" required>
+            <legend class="none">Contraseña</legend>
+            <label for="pass"></label>
+            <input type="password" placeholder="Contraseña" name="pass" required>
         </fieldset>
 
         <fieldset class="title">
-            <legend class="oculto">Boton de Envio</legend>
+            <legend class="none">Boton de Envio</legend>
             <button type="submit" class="boton">Enviar</button>
         </fieldset>
 

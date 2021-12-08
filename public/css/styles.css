@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 * {
     margin:0;
     padding:0;
@@ -10,24 +12,16 @@
   }
   
   .banner{
-    max-width: 100%;
-    position: relative;
-    top: 55vw;
+    width: 100%;
+    
   }
 
   main {
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
+    margin: auto;
+    width: 90vw;
   }
   
-  .main-navbar ul {
-    list-style: none;
-    margin: 0%;
-    padding: 0%;
-    text-align: justify;
-  }
-  
+
   .titulares {
     max-width: 100%;
     background-color: #ebebeb;
@@ -39,68 +33,96 @@
     flex-wrap: wrap;
     justify-content: space-between;
     position: relative;
-    top: 60vw;
+    top: 2px;
   }
+
+  .articulos{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 15px;
+   }
 
     
   .custom__product {
-    max-width: 20%;
-    margin-top: 30px;
-    background-color: rgb(255, 255, 255);
-    border: solid 2px #ebebeb;
-    padding: 5px;
-    margin: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    position: relative;  
-    top: 60vw;
+    border-top: 1px solid #ebebeb;
+    margin: 1px;
+    padding: 1px;
+    position: relative;
+  
+  }
+
+  .custom__product .descripcion {
+    opacity: 0;
+    transition: all 0.3s ease;
+  }
+  
+  .custom__product .descripcion:hover {
+    opacity: 1;
   }
   
   .caja {
     display: flex;
-    flex-wrap: wrap;
-    border-top: solid 3px #ebebeb;
-    color: #39b54a;
-    text-align: justify;
+    flex-wrap:wrap;
+    border-top: 1px solid #ebebeb;
     background-color: white;
     position: relative;
-    right: 5px;
-    top: 5px;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+    width: 100%;
+    
 }
+
+.caja:hover {
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+
+}
+
   
   .fa-truck {
-    
-    padding: 5px;
+    font-size: 1.5rem;
+    padding: 12px 7px 11px 8px;
+    margin: 1px 7px;
+    display: block;
     border: 1px solid #39b54a;
-    border-radius: 50px;
-    color: #39b54a;
+    background-color: #fff;
+    border-radius: 50%;
     position: absolute;
-    right: 1px;
-    bottom: 35px;
-    
-    
+    left: 50vw;
+    top: -20px;
+    color: #39b54a;
+    transition: all 0.4s ease;
+  }
+
+  .fa-truck:hover {
+    transform: rotate(-90deg);
   }
   
+  
   .precios {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0px 15px;
     color: #666;
-    font-style: bold;
-    display: flex;
-    justify-content: flex-start;
   }
   
   .descuentos {
     color: #39b54a;
-    text-align: justify;
+    align-self: center;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+
   }
   
   .descripcion {
-    color: #666;
     font-size: 16px;
-    font-weight: 700;
-    width: 90%;
-    text-align: justify;
-    margin-bottom: 10px;
+    font-weight: 500;
+    font-style: bold;
+    margin: 15px 15px;
+    width: 100%;
+    color: #666;
   }
   
   .img {
@@ -109,69 +131,34 @@
     
   }
   
-  @media (max-width: 360px) {
-    .descripcion {
-      display: none;
-    }
-    }
-    .custom__product{
-        max-width: 100%;
-        margin: 5px 15px;
-    }
-  
-     .descuentos{
-      display: block;
-      position: absolute;
-      bottom: 2vw;
-    }
-    .precios{
-        display: block;
-        position: absolute;
-        bottom: 5vw;
-        right: 20vw;
-    }
-  
-  @media (min-width: 361px) {
-    .titulares,
-    .custom__product{
-      max-width: 40%;
-      box-shadow: 0px 0px 10px rgb(100, 100, 100);
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
-      gap: 50px;
-      margin: 0 20px;
-
-    }
-   
-    
-  }
-  
-  @media (min-width: 769px) {
+ 
+  @media (min-width: 768px) {
     
     .titulares {
       max-width: 100%;
       margin: auto;
+      
     }
     .banner{
       position: relative;
-      bottom: 20px;
-
+    
     }
   
     .custom__product{
       max-width: 40%;
-      margin: auto;
+      margin: 5%;
       box-shadow: 0px 0px 10px rgb(100, 100, 100);
       display: flex;
       flex-wrap: wrap;
       justify-content: space-around;
       align-items: center;
-      gap: 50px;
-      margin: 0 20px;
+  
+
     }
-  }
+    .caja{
+      width: 100%;
+    }
+  
   
   @media (min-width: 1200px) {
     .img {
@@ -187,10 +174,18 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        gap: 50px;
         margin: 0 20px;
     }
-    
+    .caja{
+      display: flex;
+      flex-wrap:wrap;
+      border-top: 1px solid #ebebeb;
+      background-color: white;
+      padding: 8px;
+      position: relative;
+      border-radius: 10px;
+      transition: all 0.5s ease-in-out;
+      width: 100%;
+    }
   }
-
-  
+}

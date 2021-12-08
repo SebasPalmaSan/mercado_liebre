@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 * {
     margin:0;
     padding:0;
@@ -14,20 +16,33 @@
       background-color: rgb(255, 255, 255);
       color: rgb(161, 159, 159);
       font-size: 12px;
+      
+      
   }
 
-  .oculto{
+  .none{
       display: none;
       border: none;
       
   }
 
   .boton{
-      background-color: rgb(44, 44, 236);
-      color: rgb(255, 255, 255);
-      border-radius: 4px;
-      width: 100%;
-      text-align: center;
-      list-style: none;
+    flex: 1 0 auto;
+    background-color: rgb(0, 174, 255);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: none;
+    margin: 0px;
+    font-size: 20px;
+    padding: 2px 61px;
+    transition: background-color .3;
+    display:flex;
+    
+   
       
+  }
+
+  .boton:hover{
+    background-color:#0022AA;
+    
   }

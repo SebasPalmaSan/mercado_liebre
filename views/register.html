@@ -7,11 +7,46 @@
     <title>Register</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/css/normalize.css"/>
+    <link rel="stylesheet" href="/css/footer.css"/>
+    <link rel="stylesheet" href="/css/header.css"/>
     <link rel="stylesheet" href="/css/register.css"/>
     <link rel="stylesheet" href="/css/styles.css"/>
     <script src="https://kit.fontawesome.com/2820fab1de.js" crossorigin="anonymous"></script>
 </head>
+
+
 <body>
+    <header class="main-header">
+        <section class="main-header-top-bar">
+            <figure class="logo">
+            <img src="/images/logo-mercado-liebre.svg">
+            </figure>
+            <form id="buscador"> <input type="search" value = "Buscar productos, marcas" id="barra"><button type="submit" onclick=""> <i class="fas fa-search"></i></button> </form>
+            <article class="copy-header">
+                <h2 ><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</h2>
+            </article>
+        </section>
+        
+    <section class="main-nav">
+    <nav class="main-navbar-left">
+        <a href="/" class="link">Ofertas</a>
+        <a href="/">Tiendas Oficiales</a>
+        <a href="/">Vender</a>
+        <a href="/">Ayuda</a>
+    </nav>
+    
+    <nav class="main-navbar-right">
+        <a href="/register">Creá tu cuenta<i class="fa-regular fa-id-card"></i></a>
+        <a href="/login">Ingresá<i class="fa-solid fa-arrow-right"></i></a>
+        <a href="/">Mis Compras<i class="fa-solid fa-basket-shopping"></i></a>
+    </nav>
+    </section>
+    
+    <nav class="burguer">
+        <a href="/"><i class="fas fa-bars"></i></a>
+    </nav>
+    
+    </header>
     <form action="/" method="post">
         <fieldset class="formulario">
             <legend class="titulo">Nombre y Apellido</legend>

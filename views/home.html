@@ -21,29 +21,26 @@
             <figure class="logo">
             <img src="/images/logo-mercado-liebre.svg">
             </figure>
-            <form action="/" method="post">
-                <input class="search"type="search" name="search" id="buscar">
-                <button <i class="fa-solid fa-magnifying-glass"></i></button>
-            </form>
+            <form id="buscador"> <input type="search" value = "Buscar productos, marcas" id="barra"><button type="submit" onclick=""> <i class="fas fa-search"></i></button> </form>
             <article class="copy-header">
-            <i class="fas fa-hand-holding-usd"></i>
-            <h2 >Comprá en cuotas y sin tarjeta de crédito</h2>
+                <h2 ><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</h2>
             </article>
         </section>
         
-   
-    <nav class="main-navbar">
-        <a href="/">Ofertas</a>
-        <a href="/">Tiendas Oficiales</a>
-        <a href="/">Vender</a>
-        <a href="/">Ayuda</a>
+   <section class="main-nav">
+    <nav class="main-navbar-left">
+        <a href="/" class="link">Ofertas</a>
+        <a href="/" class="link">Tiendas Oficiales</a>
+        <a href="/" class="link">Vender</a>
+        <a href="/" class="link">Ayuda</a>
     </nav>
 
-    <nav class="main-navbar">
-        <a href="/register">Creá tu cuenta<i class="fa-regular fa-id-card"></i></a>
-        <a href="/login">Ingresá<i class="fa-solid fa-arrow-right"></i></a>
-        <a href="/">Mis Compras<i class="fa-solid fa-basket-shopping"></i></a>
+    <nav class="main-navbar-right">
+        <a href="/register" class="link">Creá tu cuenta<i class="fa-regular fa-id-card"></i></a>
+        <a href="/login" class="link">Ingresá<i class="fa-solid fa-arrow-right"></i></a>
+        <a href="/" class="link">Mis Compras<i class="fa-solid fa-basket-shopping"></i></a>
     </nav>
+</section>
 
     <nav class="burguer">
         <a href="/"><i class="fas fa-bars"></i></a>
@@ -51,13 +48,17 @@
 
     </header>
 
+    <figure>
+        <img class="banner" src="/images/img-home-banner.jpg">
+    </figure>
+
         <!--main-->
 
     <main>
-        <img class="banner" src="/images/img-home-banner.jpg">
+        
         <section>
             <h2 class="titulares">Basado en tu última visita</h2>
-            
+            <div class="articulos">
             <article class="custom__product">
                 <picture>
                     <img class="img" src="/images/img-cafetera-moulinex.jpg"/>
@@ -109,12 +110,16 @@
                 </dl>
                 
             </article>
+        </div>
          
 
         </section>
 
         <section>
             <h2 class="titulares">Ofertas</h2>
+
+            <div class="articulos">
+          
            
             <article class="custom__product">
                 <picture>
@@ -168,7 +173,8 @@
                         <h3 class="descripcion">SmartTv Samsung 43"</h3>
                     </dl>
                     
-                </article>   
+                </article>  
+            </div> 
             
 
 
@@ -179,7 +185,7 @@
         <!--Footer-->
 
     <footer>
-        <section>
+        <section class="footerFlex">
                 <article>
             <i class="fa-solid fa-credit-card"></i>
             <h3 class="titulosfooter">Pagá con tarjeta o en efectivo</h3>
@@ -207,10 +213,11 @@
                 porque estás siempre protegid@.</p>
             </article>
     
-            <article>
-            <h3 class="textFooter">Copyright © 1999-2020 MercadoLiebre S.R.L.</h3>
-        </article> 
+            
         </section>
+        <article class="copyFooter">
+            <h3>Copyright ©️ 1999-2020 MercadoLiebre S.R.L.</h3>
+        </article> 
     </footer>
     
 </body>
