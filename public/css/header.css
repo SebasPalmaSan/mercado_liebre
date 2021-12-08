@@ -24,23 +24,24 @@ header {
   }
 
  
-  .search{
-    width: 20%;
+  .buscador{
     display: flex;
     justify-content: right;
     position: absolute;
-    top: 5px;
+    top: 20px;
     right: 5px;
     border-radius: 10px;
 }
   
   .logo {
-    width: 35vw;
+    width: 30vw;
+    position: relative;
+    right: 20px;
   }
   .copy-header {
     display: inline;
     font-weight: 200;
-    font-size: 15px;
+    font-size: 10px;
     text-align: center;
     width: 50%;
     color: rgb(3, 38, 76);
@@ -73,7 +74,7 @@ header {
         display: flex;
         text-align: right;
         position: relative;
-        left: 32vw;
+        left: 30vw;
         bottom: 6vw;
 
       }
@@ -126,11 +127,35 @@ header {
  
 
  @media(min-width: 1200px) {
-   .main-navbar-left,
-   .main-navbar-right{
-     display: flex;
-    
+   .logo{
+     width: 30vw;
+     position: relative;
+     right: 2vw;
    }
+   .copy-header{
+     position: relative;
+     left: 70vw;
+   }
+   .buscador{
+     position: relative;
+     left: 25vw;
+     bottom:35vw;
+   }
+   .main-nav{
+     position: relative;
+     top: 70px;
+   }
+   .main-navbar-left{
+     display:flex;
+     justify-content: flex-start;
+     position: relative;
+     right: 35vw;
+   }
+   .main-navbar-right{
+    display: flex;
+    justify-content: flex-start;
+  }
+   
    .burguer{
      display: none;
    }

@@ -28,7 +28,7 @@
     font-size: 24px;
     font-weight: 500;
     color: rgb(102, 102, 102);
-    margin: 0%;
+    margin: 1px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -74,6 +74,7 @@
     
 }
 
+
 .caja:hover {
   box-shadow: 0px 0px 10px rgb(100, 100, 100);
 
@@ -103,7 +104,7 @@
   .precios {
     font-size: 18px;
     font-weight: 400;
-    margin: 0px 15px;
+    margin: 10px 15px;
     color: #666;
   }
   
@@ -117,7 +118,7 @@
   }
   
   .descripcion {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 500;
     font-style: bold;
     margin: 15px 15px;
@@ -155,9 +156,25 @@
   
 
     }
-    .caja{
-      width: 100%;
+    
+    .fa-truck {
+      font-size: 1.5rem;
+      padding: 12px 7px 11px 8px;
+      margin: 1px 7px;
+      border: 1px solid #39b54a;
+      background-color: #fff;
+      border-radius: 50%;
+      position: absolute;
+      left: 25vw;
+      top: -20px;
+      color: #39b54a;
+      transition: all 0.4s ease;
     }
+  
+    .fa-truck:hover {
+      transform: rotate(-90deg);
+    }
+    
   
   
   @media (min-width: 1200px) {
@@ -166,6 +183,9 @@
     }
     .titulares {
       max-width: 100%;
+    }
+    .articulos{
+      margin: 10px;
     }
     
     .custom__product{
@@ -177,15 +197,30 @@
         margin: 0 20px;
     }
     .caja{
-      display: flex;
-      flex-wrap:wrap;
       border-top: 1px solid #ebebeb;
       background-color: white;
-      padding: 8px;
       position: relative;
       border-radius: 10px;
       transition: all 0.5s ease-in-out;
       width: 100%;
     }
+    .fa-truck {
+      font-size: 1.5rem;
+      padding: 12px 7px 11px 8px;
+      margin: 1px 7px;
+      border: 1px solid #39b54a;
+      background-color: #fff;
+      border-radius: 50%;
+      position: absolute;
+      left: 12vw;
+      top: -20px;
+      color: #39b54a;
+      transition: all 0.4s ease;
+    }
+  
+    .fa-truck:hover {
+      transform: rotate(-90deg);
+    }
+    
   }
 }

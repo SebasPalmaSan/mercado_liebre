@@ -50,26 +50,26 @@
     <form action="/" method="post">
         <fieldset class="formulario">
             <legend class="titulo">Nombre y Apellido</legend>
-            <label for="nombreCompleto">Nombre y Apellido</label>
-            <input type="text" name="nombreCompleto" id="nombreCompleto" required>
+            <label for="nombreCompleto"></label>
+            <input type="text" placeholder="Nombre y Apellido" id="nombreCompleto" required>
         </fieldset>
 
         <fieldset class="formulario">
             <legend class="titulo">Nombre de Usuario</legend>
-            <label for="usuario">Nombre de Usuario</label>
-            <input type="text" name="usuario" id="usuario" required>
+            <label for="usuario"></label>
+            <input type="text" placeholder="Usuario" id="usuario" required>
         </fieldset>
 
         <fieldset class="formulario">
             <legend class="info">Fecha de Nacimiento</legend>
-            <label for="fecha">Fecha de Nacimiento</label>
-            <input type="text" name="fecha" id="fecha" required>
+            <label for="fecha"></label>
+            <input type="text" placeholder="dd/mm/aaaa" id="fecha" required>
         </fieldset>
 
         <fieldset class="formulario">
             <legend class="titulo">Domicilio</legend>
-            <label for="domicilio">Domicilio</label>
-            <input type="text" name="domicilio" id="domicilio" required>
+            <label for="domicilio"></label>
+            <input type="text" placeholder="Domicilio" id="domicilio" required>
         </fieldset>
 
         <fieldset class="formulario">
@@ -96,31 +96,73 @@
 
         <fieldset>
             <legend class="titulo">Foto del Usuario</legend>
-            <label for="foto">Foto</label>
+            <label for="foto"></label>
             <input type="file" name="foto" id="foto" required>
         </fieldset>
 
         <fieldset>
             <legend class="titulo">Contraseña</legend>
-            <label for="clave">Contraseña</label>
-            <input type="password" name="clave" id="clave" required>
+            <label for="clave"></label>
+            <input type="password" placeholder="Contraseña" id="clave" required>
         </fieldset>
 
         <fieldset>
             <legend class="titulo">Confirmar Contraseña</legend>
-            <label for="confirmar">Confirmar Contraseña</label>
-            <input type="password" name="confirmar" id="confirmar" required>
+            <label for="confirmar"></label>
+            <input type="password" placeholder="Confirmar Contraseña" id="confirmar" required>
         </fieldset>
 
         <fieldset>
             <legend>Botones de Formulario</legend>
-            <button type="submit">Enviar</button>
-            <button type="reset">Reset</button>
+            <button type="submit" class="boton">Enviar</button>
+            <button type="reset" class="boton">Reset</button>
         </fieldset>
 
         
   
     </form>
+
+    <footer>
+        <section class="footerFlex">
+                <article>
+               <picture class="iconoFooter">
+            <i class="fa-solid fa-credit-card"></i>
+              </picture>
+            <h3 class="titulosfooter">Pagá con tarjeta o en efectivo</h3>
+            <p class="textFooter">Con Mercado Liebre Cash, 
+                tenés cuotas sin interés con tarjeta 
+                o efectivo en
+                puntos de pago. 
+                ¡Y siempre es seguro!</p>
+            </article>
+
+            <article>
+
+             <picture class="iconoFooter">
+            <i class="fa-solid fa-gift"></i>
+             </picture>    
+            <h3 class="titulosfooter">Envío gratis desde $ 2.500</h3>
+            <p class="textFooter">Solo por estar registrad@ en Mercado Liebre 
+                tenés envíos gratis en miles de productos. 
+                Es un beneficio de Mercado Puntos.</p> 
+            </article>
+                
+            <article>
+            <picture class ="iconoFooter">
+            <i class="fa-solid fa-user-shield"></i>
+            </picture>    
+            <h3 class="titulosfooter"> Seguridad, de principio a fin</h3>
+            <p class="textFooter">¿No te gusta? ¡Devolvelo! En Mercado Liebre,
+                no hay nada que no puedas hacer,
+                porque estás siempre protegid@.</p>
+            </article>
+    
+            
+        </section>
+        <article class="copyFooter">
+            <h3>Copyright ©️ 1999-2020 MercadoLiebre S.R.L.</h3>
+        </article> 
+    </footer>
     
 </body>
 </html>

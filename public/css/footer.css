@@ -24,34 +24,28 @@ footer{
   color: rgb(102, 102, 102);
 }
 
-.fa-credit-card {
+.iconoFooter{
   font-size: 34px;
-  color: blue;
+  color: rgb(0, 0, 255);
   display: flex;
   justify-content: space-around;
 }
-
-.fa-gift {
-  font-size: 34px;
-  color: blue;
-  display: flex;
-  justify-content: space-around;
-}
-
-.fa-user-shield {
-  font-size: 34px;
-  color: blue;
-  display: flex;
-  justify-content: space-around;
+.iconoFooter:hover{
+  color: rgb(7, 142, 155);
 }
 
 .copyFooter{
   color: #666;
-  font-size: 16px;
-  text-align: center;
+  font-size: 12px;
+  text-align: justify;
+  margin-top: 10px;
 }
 
 @media(min-width: 768px){
+  .buscador{
+    position: relative;
+    left: -2vw;
+  }
 
 }
 
