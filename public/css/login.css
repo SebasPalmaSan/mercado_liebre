@@ -16,8 +16,11 @@
       color: rgb(161, 159, 159);
       font-size: 12px;
       padding: 0px;
-      
-      
+      max-width: 100%;
+  }
+
+  .relleno{
+    width: 100%;
   }
 
   .none{
@@ -37,6 +40,9 @@
     padding: 0px;
     transition: background-color .3;
     display:flex;
+    justify-content: center;
+    width: 100%;
+    
     
    
       

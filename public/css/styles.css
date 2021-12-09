@@ -153,8 +153,6 @@
       flex-wrap: wrap;
       justify-content: space-around;
       align-items: center;
-  
-
     }
     
     .fa-truck {
@@ -220,6 +218,12 @@
   
     .fa-truck:hover {
       transform: rotate(-90deg);
+    }
+
+    .precios,
+    .descuentos,
+    .descripcion{        
+      font-size: 14px;
     }
     
   }

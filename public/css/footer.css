@@ -38,7 +38,7 @@ footer{
   color: #666;
   font-size: 12px;
   text-align: justify;
-  margin-top: 10px;
+  margin: 5px 10px;
 }
 
 @media(min-width: 768px){
@@ -55,6 +55,10 @@ footer{
     flex-direction: row;
     justify-content: space-between;
     margin: 20px;
+  }
+
+  .search{
+    width: 30vw;
   }
 
   

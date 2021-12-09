@@ -38,6 +38,10 @@ body{
     display: flex;
     flex-direction: column;
   }
+
+  .rellenInterior{
+    width: 40%;
+  }
   
   .boton{
     
@@ -47,12 +51,10 @@ body{
     border: none;
     margin: 2px;
     font-size: 20px;
-    
     transition: background-color .3;
     display:flex;
-    
-   
-      
+    justify-content: center;
+    width: 20%;  
   }
 
   .boton:hover{

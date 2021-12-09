@@ -21,7 +21,9 @@
             <figure class="logo">
             <img src="/images/logo-mercado-liebre.svg">
             </figure>
+            <article class="buscador">
             <form id="buscador"> <input type="search" value = "Buscar productos, marcas" id="barra"><button type="submit" onclick=""> <i class="fas fa-search"></i></button> </form>
+            </article>
             <article class="copy-header">
                 <h2 ><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</h2>
             </article>
@@ -30,15 +32,15 @@
     <section class="main-nav">
     <nav class="main-navbar-left">
         <a href="/" class="link">Ofertas</a>
-        <a href="/">Tiendas Oficiales</a>
-        <a href="/">Vender</a>
-        <a href="/">Ayuda</a>
+        <a href="/" class="link">Tiendas Oficiales</a>
+        <a href="/" class="link">Vender</a>
+        <a href="/" class="link">Ayuda</a>
     </nav>
     
     <nav class="main-navbar-right">
-        <a href="/register">Creá tu cuenta<i class="fa-regular fa-id-card"></i></a>
-        <a href="/login">Ingresá<i class="fa-solid fa-arrow-right"></i></a>
-        <a href="/">Mis Compras<i class="fa-solid fa-basket-shopping"></i></a>
+        <a href="/register" class="link">Creá tu cuenta<i class="fa-regular fa-id-card"></i></a>
+        <a href="/login" class="link">Ingresá<i class="fa-solid fa-arrow-right"></i></a>
+        <a href="/" class="link">Mis Compras<i class="fa-solid fa-basket-shopping"></i></a>
     </nav>
     </section>
     
@@ -51,25 +53,25 @@
         <fieldset class="formulario">
             <legend class="titulo">Nombre y Apellido</legend>
             <label for="nombreCompleto"></label>
-            <input type="text" placeholder="Nombre y Apellido" id="nombreCompleto" required>
+            <input class="rellenInterior" type="text" placeholder="Nombre y Apellido" id="nombreCompleto" required>
         </fieldset>
 
         <fieldset class="formulario">
             <legend class="titulo">Nombre de Usuario</legend>
             <label for="usuario"></label>
-            <input type="text" placeholder="Usuario" id="usuario" required>
+            <input class="rellenInterior" type="text" placeholder="Usuario" id="usuario" required>
         </fieldset>
 
         <fieldset class="formulario">
             <legend class="info">Fecha de Nacimiento</legend>
             <label for="fecha"></label>
-            <input type="text" placeholder="dd/mm/aaaa" id="fecha" required>
+            <input class="rellenInterior" type="text" placeholder="dd/mm/aaaa" id="fecha" required>
         </fieldset>
 
         <fieldset class="formulario">
             <legend class="titulo">Domicilio</legend>
             <label for="domicilio"></label>
-            <input type="text" placeholder="Domicilio" id="domicilio" required>
+            <input class="rellenInterior" type="text" placeholder="Domicilio" id="domicilio" required>
         </fieldset>
 
         <fieldset class="formulario">
