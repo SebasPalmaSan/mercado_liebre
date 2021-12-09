@@ -128,7 +128,7 @@ header {
 
  @media(min-width: 1200px) {
    .logo{
-     width: 30vw;
+     width: 25vw;
      position: relative;
      right: 2vw;
    }
